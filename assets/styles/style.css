@@ -1,0 +1,101 @@
+body {
+  background-image: url("https://wallpaperscraft.com/image/glare_light_light_background_36832_2560x1600.jpg");
+  background-size: cover;
+}
+
+.container {
+  background-image:
+  background-size: cover;
+  opacity: .6
+}
+
+.row {
+}
+.board {
+  margin: 0 auto;
+  display: block;
+  width:300px;
+  background-color: green;
+  opacity: .7
+}
+#sqOne {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin:2px;
+  width:100px;
+  height:100px;
+  font-size:400%;
+  padding-top:5px;
+}
+#sqTwo {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin:2px;
+  width:100px;
+  height:100px;
+  font-size:400%;
+  padding-top:5px;
+}
+#sqThree {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin:2px;
+  width:100px;
+  height:100px;
+  font-size:400%;
+  padding-top:5px;
+}
+#sqFour {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin:2px;
+  width:100px;
+  height:100px;
+  font-size:400%;
+  padding-top:5px;
+}
+#sqFive {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin:2px;
+  width:100px;
+  height:100px;
+  font-size:400%;
+  padding-top:5px;
+}
+#sqSix {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin:2px;
+  width:100px;
+  height:100px;
+  font-size:400%;
+  padding-top:5px;
+}
+#sqSeven {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin:2px;
+  width:100px;
+  height:100px;
+  font-size:400%;
+  padding-top:5px;
+}
+#sqEight {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin:2px;
+  width:100px;
+  height:100px;
+  font-size:400%;
+  padding-top:5px;
+}
+#sqNine {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin:2px;
+  width:100px;
+  height:100px;
+  font-size:400%;
+  padding-top:5px;
+}

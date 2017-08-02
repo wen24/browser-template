@@ -1,25 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Example</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title> Tic-Tac-Toe </title>
+        <meta charset="UTF-8">
 
-      <!-- Do not add `link` tags unless you know what you are doing -->
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link type="text/css" rel="stylesheet" href="assets/styles/style.css"/>
+        <link type="text/css" rel="stylesheet" href="assets/styles/index.scss"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+<div class="container-fluid">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="#">Welcome to Tic Tac Toe</a>
+  </div>
+  <ul class="nav navbar-nav">
+    <li class="active"><a href="#">Home</a></li>
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sign Up Here
+      <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li>
+                <form>
+                  Email: <input type="text" name="email"><br>
+                  Username: <input type="text" name="username"><br>
+                  Password: <input type="text" name="password"><br>
+                    <button type="button" id="signup" class="btn btn-primary">Sign Up Here</button>
+                </form></li>
+        <li><a href="#">Page 1-2</a></li>
+        <li><a href="#">Page 1-3</a></li>
+      </ul>
+</div>
+</nav>
+        <form>
+          Email: <input type="text" name="email"><br>
+          Username: <input type="text" name="username"><br>
+          Password: <input type="text" name="password"><br>
+            <button type="button" id="signup" class="btn btn-primary">Sign Up Here</button>
+        </form>
+          <p>Already a User? Sign in here</p>
+        <form>
+          Username: <input type="text" name="username"><br>
+          Password: <input type="text" name="password"><br>
+        </form>
+            <button type="button" id="signin" class="btn btn-primary">Sign In</button>
 
-      <!-- Do not add `script` tags unless you know what you are doing -->
-      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
-      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
-    </head>
-    <body class="container-fluid">
-      <h1>Example</h1>
+      <p><a href="http://www.wikihow.com/Play-Tic-Tac-Toe">CLick here and learn to play Tic Tac Toe!</a></p>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.</p>
-    </body>
+    <div class="board">
+      <table>
+        <tr class=row>
+          <td class=row id="sqOne"></td>
+          <td class=row id="sqTwo"></td>
+          <td class=row id="sqThree"></td>
+        </tr>
+        <tr class=row>
+          <td class=row id="sqFour"></td>
+          <td class=row id="sqFive"></td>
+          <td class=row id="sqSix"></td>
+        </tr>
+        <tr class=row>
+          <td class=row id="sqSeven"></td>
+          <td class=row id="sqEight"></td>
+          <td class=row id="sqNine"></td>
+        </tr>
+      </table>
+    </div>
+
+<script type="text/javascript" src="assets/scripts/example.js"></script>
+  </div>
+</body>
+
+
 </html>
