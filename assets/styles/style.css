@@ -1,101 +1,70 @@
 body {
-  background-image: url("https://wallpaperscraft.com/image/glare_light_light_background_36832_2560x1600.jpg");
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Simba-Lion-King-Backgrounds.jpg");
+  background-size: 102%;
+  background-repeat: no-repeat;
+}
+
+.h1Title {
+  color:#444C5C;
+  text-shadow:5px 5px 10px red;
+  text-align: center;
+}
+
+#message {
+  font-family: fantasy;
+  font-size: large;
+  text-shadow:5px 5px 10px red;
+  text-align: center;
+}
+
+.displayWLT {
+  font-size:xx-large;
+  color:#FF3407;
+  text-align:right;
+  float:left;
+}
+
+.gameboard {
+  width: 330px;
+  margin: 40px auto 0 auto;
+}
+
+.row {
+  clear: both;
+  overflow: hidden;
+}
+
+.square {
+  float: left;
+  width: 119px;
+  height: 84px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 50px;
+}
+
+.bottom {
+  border-bottom: 1px solid black;
+}
+
+.right {
+  border-right: 1px solid black;
+}
+
+.x {
+  background-color: red;
+  background-image: url("https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=38154184");
+  background-size: cover;
+}
+
+.o {
+  background-color: blue;
+  background-image: url("https://images.moviepilot.com/image/upload/c_fill,h_470,q_auto:good,w_620/nazohbzmveuald1jc4t2.jpg");
   background-size: cover;
 }
 
 .container {
-  background-image:
-  background-size: cover;
-  opacity: .6
-}
-
-.row {
-}
-.board {
-  margin: 0 auto;
-  display: block;
-  width:300px;
-  background-color: green;
-  opacity: .7
-}
-#sqOne {
-  border: 5px solid black;
-  border-radius: 5px;
-  margin:2px;
-  width:100px;
-  height:100px;
-  font-size:400%;
-  padding-top:5px;
-}
-#sqTwo {
-  border: 5px solid black;
-  border-radius: 5px;
-  margin:2px;
-  width:100px;
-  height:100px;
-  font-size:400%;
-  padding-top:5px;
-}
-#sqThree {
-  border: 5px solid black;
-  border-radius: 5px;
-  margin:2px;
-  width:100px;
-  height:100px;
-  font-size:400%;
-  padding-top:5px;
-}
-#sqFour {
-  border: 5px solid black;
-  border-radius: 5px;
-  margin:2px;
-  width:100px;
-  height:100px;
-  font-size:400%;
-  padding-top:5px;
-}
-#sqFive {
-  border: 5px solid black;
-  border-radius: 5px;
-  margin:2px;
-  width:100px;
-  height:100px;
-  font-size:400%;
-  padding-top:5px;
-}
-#sqSix {
-  border: 5px solid black;
-  border-radius: 5px;
-  margin:2px;
-  width:100px;
-  height:100px;
-  font-size:400%;
-  padding-top:5px;
-}
-#sqSeven {
-  border: 5px solid black;
-  border-radius: 5px;
-  margin:2px;
-  width:100px;
-  height:100px;
-  font-size:400%;
-  padding-top:5px;
-}
-#sqEight {
-  border: 5px solid black;
-  border-radius: 5px;
-  margin:2px;
-  width:100px;
-  height:100px;
-  font-size:400%;
-  padding-top:5px;
-}
-#sqNine {
-  border: 5px solid black;
-  border-radius: 5px;
-  margin:2px;
-  width:100px;
-  height:100px;
-  font-size:400%;
-  padding-top:5px;
+  position: relative;
+  top: -43px;
+  left: -80px;
 }
