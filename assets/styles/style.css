@@ -68,3 +68,28 @@ body {
   top: -43px;
   left: -80px;
 }
+
+#reset {
+  margin-left: 600px;
+  margin-top: 10px;
+  width: 224px;
+  height: 45px;
+  color:#000000;
+  color: white;
+  font-size:14px;
+  font-weight:700;
+}
+
+.containerLogin {
+  flex-shrink:.5
+}
+
+.containChange {
+  flex-shrink: 45;
+}
+.containerSignUp {
+  top: 0px;
+  left: 50px;
+  right: 60px;
+  bottom: -88px;
+}
